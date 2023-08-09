@@ -1,0 +1,65 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 60%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.shadow-text {
+  text-shadow: black 5px 5px 5px;
+}
+
+/* .divider:before {
+  background: url(../images/divider-customizer/divider-skin-default.png) no-repeat 0 0;
+  width: 236px;
+  height: 18px;
+}
+.divider:before, .divider-2:before, .divider-3:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  left: 50%;
+  margin-left: -118px;
+} */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button.active {
+  background-color: blueviolet;
+}
