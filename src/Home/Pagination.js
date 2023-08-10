@@ -34,7 +34,7 @@ const Pagination = ({
           </div>
         );
       })}
-      ...
+
       {/* <p className="mx-2 w-10 h-10 flex justify-center items-center border-[1px] border-gray-400">
         {pages.length}
       </p> */}
