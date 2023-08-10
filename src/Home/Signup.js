@@ -99,7 +99,7 @@ const Signup = () => {
 
   return (
     <div
-      className="flex justify-center items-center h-full bg-center bg-no-repeat bg-cover pt-20 md:pt-44"
+      className="flex justify-center items-center h-full bg-center bg-no-repeat bg-cover pt-20 md:pt-32"
       style={{ backgroundImage: "url('bg-2.jpg')" }}
     >
       <Formik
@@ -458,6 +458,7 @@ const Signup = () => {
           </Form>
         )}
       </Formik>
+      {/* <div className="w-full h-[152%] bg-white opacity-50 absolute top-0"></div> */}
     </div>
   );
 };
