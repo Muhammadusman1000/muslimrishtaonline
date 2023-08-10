@@ -63,3 +63,15 @@ input[type="number"]::-webkit-outer-spin-button {
 button.active {
   background-color: blueviolet;
 }
+
+ @media screen and (min-width: 1024px) {
+  /* .swiper {
+    height: 80%;
+  } */
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+  }
+} 
