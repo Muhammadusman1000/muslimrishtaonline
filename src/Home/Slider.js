@@ -7,12 +7,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "../App.css";
+// import "./Slider.css";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper/modules";
 
-export default function App() {
+export default function Slider() {
   return (
     <>
       <Swiper

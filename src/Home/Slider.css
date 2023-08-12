@@ -18,7 +18,7 @@ body {
 
 .swiper {
   width: 100%;
-  height: 900px;
+  height: 100%;
 }
 
 .swiper-slide {
@@ -35,28 +35,13 @@ body {
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 800px !important;
   object-fit: cover;
 }
 
-/* .swiper {
+.swiper {
   width: 100%;
-  height: 700px;
-  margin: 0px auto;
-} */
-.append-buttons {
-  text-align: center;
-  margin-top: 20px;
+  height: 800px;
+
 }
 
-.append-buttons button {
-  display: inline-block;
-  cursor: pointer;
-  border: 1px solid white;
-  color: #007aff;
-  text-decoration: none;
-  padding: 4px 10px;
-  border-radius: 4px;
-  margin: 0 10px;
-  font-size: 13px;
-}
