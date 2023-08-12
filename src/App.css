@@ -18,7 +18,7 @@ body {
 
 .swiper {
   width: 100%;
-  height: 60%;
+  height: 100%;
 }
 
 .swiper-slide {
@@ -72,14 +72,14 @@ button.active {
     object-fit: cover;
   }
 }
-/* @media screen and (max-width: 1023px) { */
-/* .swiper {
+ @media screen and (min-width: 1536px) { 
+ .swiper {
     height: 80%;
-  } */
-/* .swiper-slide img {
+  } 
+ .swiper-slide img {
   display: block;
   width: 100%;
-  height: 600px;
+  height: 800px;
   object-fit: cover;
-} */
-/* } */
+} 
+ }

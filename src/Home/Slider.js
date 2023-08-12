@@ -29,10 +29,10 @@ export default function App() {
         modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className="h-[650px] lg:h-[800px] ">
-          <img src="cover.jpg" alt="" className="w-full h-full" />
+        <SwiperSlide >
+          <img src="cover.jpg" alt="" className="w-full " />
         </SwiperSlide>
-        <SwiperSlide className="h-[650px] ">
+        <SwiperSlide >
           <img src="cover2.jpg" alt="" className="w-full" />
         </SwiperSlide>
         <div className="w-full h-full bg-gradient-to-t from-gray-700 to-gray-100 opacity-40 absolute top-0 z-[1] "></div>
