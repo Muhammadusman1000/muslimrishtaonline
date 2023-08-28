@@ -27,6 +27,23 @@ const Footer = () => {
           </div>
         </Link>
       </div>
+
+      <div className="mt-5 ">
+        <Link to="/aboutus">
+          <p className="w-full text-center text-[#8C0B86] font-semibold text-xl">
+            About us
+          </p>
+        </Link>
+      </div>
+
+      <div className="mt-5 ">
+        <Link to="/aboutus">
+          <p className="w-full text-center text-gray-600 font-semibold">
+            © 2022 - UrgentRishta All Right Reserved
+          </p>
+        </Link>
+      </div>
+      
     </div>
   );
 };
