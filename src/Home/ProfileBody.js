@@ -4,6 +4,9 @@ import { RiWechatFill } from "react-icons/ri";
 import { PiHeartbeatFill } from "react-icons/pi";
 import { RiProfileLine } from "react-icons/ri";
 import Pagination from "./Pagination";
+import { useDispatch } from "react-redux";
+import { add } from "../Store/CartSlice";
+import { Link } from "react-router-dom";
 
 const ProfileBody = () => {
   const data = useSelector((state) => state.data);
@@ -13,7 +16,10 @@ const ProfileBody = () => {
   const lastPostIndex = currentpage * postPerpage;
   const firstPostIndex = lastPostIndex - postPerpage;
   const currentpost = data.slice(firstPostIndex, lastPostIndex);
-  // const disptach = useDispatch();
+  const disptach = useDispatch();
+  const handleAdd = (data) => {
+    disptach(add(data));
+  };
   // console.log(data);
   return (
     <div className="w-full bg-gray-100 h-auto pt-16">
@@ -68,7 +74,12 @@ const ProfileBody = () => {
                             size={18}
                             className="text-red-600 mr-2"
                           />
-                          <p className=" rounded-lg">Shortlist</p>
+                          <Link
+                            to="profileview"
+                            onClick={() => handleAdd(data)}
+                          >
+                            <p className=" rounded-lg">Shortlist</p>
+                          </Link>
                         </div>
                       </div>
                       <div className="flex justify-between items-center mt-2">
